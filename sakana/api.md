@@ -3,12 +3,13 @@ title: API | Sakana Docs
 description: Documentation of the sakana api
 ---
 
+# Sakana API
 When you add Sakana to your website you can use the api to load games, change settings and other.
 
 > [!WARNING]
 > Sakana is in a development state, this means the api changes frequently and that the docs *might* be outdated.
 
-# Basic File loading
+## Basic File loading
 ```js
 import { Sakana } from 'path/to/sakana/core/index.js'
 
@@ -18,7 +19,7 @@ emulator.load(game file, key file);
 ```
 Note that the files passed must be from a input.
 
-# Full api
+## Full api
 - Sakana [Class]:\
 When initiated pass a string with the id of a div where.\
 This will return a emulator object with functions and properties.
